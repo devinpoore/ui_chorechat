@@ -17,10 +17,11 @@ hr {
 }
 
 .info-comp {
-  height: 150px;
+  min-height: 100px;
   border-left: gray solid 1px;
   /* border-top: gray solid 1px; */
   margin-top: 12px;
+  padding-bottom: 15px;
 }
 
 .cc-body {
@@ -29,6 +30,60 @@ hr {
 
 .info-comp hr {
   background-color: lightgray;
+}
+
+.form-inline .form-control {
+  width: 20%;
+  min-width: 75px;
+  max-width: 200px;
+  border-radius: 5px;
+  height: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+}
+
+label {
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.btn-primary {
+  border-radius: 5px;
+  height: 20px;
+}
+
+.btn.btn-sm {
+  padding: 0px;
+  width: 100px;
+}
+
+.divider {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: gray;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+}
+
+.fa-times {
+  color: red;
+}
+
+h6 {
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(0, 157, 255);
+}
+
+.currRoomies {
+  background-color: rgb(221, 238, 253);
+  padding: 10px;
+  padding-top: 5px;
+  border-radius: 10px;
 }
 
 /* .App {

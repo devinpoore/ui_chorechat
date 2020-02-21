@@ -1,5 +1,12 @@
+// Dependencies
 import React from 'react';
+import { connect } from "react-redux";
+
+// CSS
 import './App.css';
+
+// Components
+
 
 function App() {
   return (
@@ -25,8 +32,36 @@ function App() {
           <div className="row info-comp">
             <div className="col-md-12">
               <h5>roommate info:</h5>
-              {/* <hr /> */}
+
+              <hr className="divider"/>
+
+              {/* Add Roommate Component */}              
+              <form className="form-inline">
+
+                <label for="nameInput">Name:</label>
+                <input className="form-control" id="nameInput"/>
+
+                <label for="numberInput">Mobile #:</label>
+                <input className="form-control" id="numberInput"/>
+
+                <button type="button" className="btn btn-sm btn-primary">Verify Number</button>
+
+              </form>
+
+              <hr className="divider"/>
+              
+              {/* Added Roommates Component */}
+              <div className="currRoomies">
+                <h4>**this section will appear/disappear as roommates are added</h4>
+                <h6>current roommates:</h6>
+                <hr />
+                <p>Devin xxxxxx2570 edit <i class="fas fa-times"></i></p>
+                <p>Gabe xxxxxx2570 edit <i class="fas fa-times"></i></p>
+                <p>Peter xxxxxx2570 edit <i class="fas fa-times"></i></p>
+              </div>          
+
             </div>
+
           </div>
 
           {/* Chore Info Component */}
@@ -45,6 +80,13 @@ function App() {
             </div>
           </div>
 
+          <div className="row">
+            <div className="col-md-12">
+              <p>Designed, developed, and maintained with <span role="img" aria-label="heart emoji">💗</span> by Code Poet Studios</p>
+              {/* <hr /> */}
+            </div>
+          </div>
+
         </div>
 
       </div>
@@ -53,4 +95,16 @@ function App() {
   );
 }
 
-export default App;
+const mapDispatchToProps = dispatch => {
+  return {
+    incr: () => dispatch({type: "INCR"})
+  };
+}
+
+const mapStateToProps = state => {
+  return {
+    test: state.testState
+  };
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);
