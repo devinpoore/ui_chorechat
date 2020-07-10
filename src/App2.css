@@ -1,0 +1,98 @@
+.header {
+    border-bottom: 1px solid lightgray;
+    background-color: darkslategray;
+    border-left: 1rem solid darkgreen;
+    padding-bottom: .5rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* margin-top: .5rem; */
+    text-align: center;
+    /* margin-bottom: 1rem; */
+    /* padding-bottom: .5rem; */
+    /* font-weight: 500; */
+    /* border-bottom: 1px solid gray; */
+    /* margin-bottom: -8px; */
+    color: white
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 0px;
+    color: lightgray;
+}
+
+h5 {
+    font-family: 'Source Code Pro', monospace;
+    display: inline-block;
+    /* margin-right: .5rem; */
+    margin-bottom: 0px;
+}
+
+h6 {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.button {
+    /* position: relative; */
+    /* width: 70%; */
+    /* text-align: center; */
+    margin-bottom: .5rem;
+    border: 1px solid lightgray;
+    padding: 1rem;
+    padding-left: 1rem;
+    border-radius: 8px;
+    /* border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 10px; */
+}
+
+.action-btn {
+    width: 75px;
+    border-radius: 24px;
+    margin-left: .5rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* background-color: #28a745; */
+    background-color: goldenrod;
+    border: 1px solid gray;
+    color: white;
+    text-align: center;
+    float: right;
+}
+
+.action-btn:hover {
+    background-color: aliceblue;
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+
+.action-btn:focus {
+    outline: 0;
+    box-shadow: none!important;
+}
+
+.action-btn i {
+    font-size: 24px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.active-comp {
+    height: 565px;
+    /* I think, ultimately, this border should be removed, but it's good for formatting for the time being */
+    /* border: 1px solid lightgray; */
+    border-radius: 25px;
+    /* padding: 1rem;
+    padding-top: .5rem; */
+}
+
+footer {
+    text-align: center;
+}

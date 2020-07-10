@@ -1,0 +1,118 @@
+
+
+.add-roomie-form, .added-roommates {
+    width: 100%;
+    /* height: 200px; */
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    /* border-top-left-radius: 10px; */
+    margin-bottom: 1rem;
+    padding: 1rem;
+} 
+
+.added-roommates {
+    height: auto;
+}
+
+/* .add-roomie-form hr, .added-roommates hr {
+    margin-top: .25rem;
+    margin-bottom: 0px;
+    width: 100%;
+} */
+
+/* .inputs-div {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+
+/* .add-roommate input {
+    border-radius: 20px;
+} */
+
+/* .form-group {
+    display: inline-block;
+    width: 30%;
+    margin-left: .5rem;
+    margin-right: .5rem;
+} */
+
+.form-group label {
+    margin-bottom: 0px;
+    padding-left: 0px;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.add-roommate-btn {
+    display: block;
+    width: 35%;
+    border-radius: 20px;
+    /* margin-left: 25px; */
+}
+
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+
+.roomie_tile {
+    /* border: 1px solid green; */
+    border-radius: 15px;
+    padding: .5rem;
+    text-align: center;
+    max-width: 150px;
+    margin: .5rem;
+    background-color: #28a745;
+}
+
+.roomie_tile h5 {
+    color: white;
+    /* font-weight: bold; */
+    margin-bottom: .5rem;
+}
+
+.roomie_tile h6 {
+    color: rgb(48, 48, 48);
+    margin-bottom: .25rem;
+}
+
+.roomie_tile p {
+    color: gray;
+    margin-bottom: 0rem;
+}
+
+.roomie_tile .fa-check-circle {
+    font-size: 48px;
+    margin: .5rem;
+    color: green;
+}
+
+.phone_div {
+    /* border: 1px solid green; */
+    border-radius: 15px;
+    padding: .25rem;
+    background-color: white;
+    margin-bottom: .25rem;
+}
+
+.roomie_tile input {
+    margin: .5rem;
+    padding: 0px;
+    width: 75%;
+    border: 1px solid lightgray;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.roomie_tile_grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.verify_btn {
+    border-radius: 20px;
+    display: inline-block;
+    margin: 2px;
+}
