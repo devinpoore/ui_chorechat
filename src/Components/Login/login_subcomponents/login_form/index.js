@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
+// import React, { useState } from 'react';
 
 function LoginForm() {
-    const initial_state = { user_email: "", pw: "" };
+    // const initial_state = { user_email: "", pw: "" };
 
-    const [form_data, set_form_data] = useState(initial_state);
+    // const [form_data, set_form_data] = useState(initial_state);
 
     return (
         <div>

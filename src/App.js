@@ -15,6 +15,8 @@ function App() {
     <Router>
       <Switch>
 
+        {/* Can we check the session/local storage to see if a valid jwt currently exists in order to determine where
+            to route to? Would keep the url cleaner */}
         <Route exact path={"/login"} component={Login}/>
         <Route exact path="/home" component={Home}/>
 
